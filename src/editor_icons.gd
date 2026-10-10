@@ -6,7 +6,7 @@ const UTexture = preload("uid://ddu76iygjkxih") #! resolve ALibRuntime.Utils.UTe
 ## Implement in extended classes
 
  #Use 'PE_STRIP_CAST_SCRIPT' to auto strip type casts with plugin exporter, if the class is not a global name
-const PE_STRIP_CAST_SCRIPT = preload("res://addons/_lib/plugin_ui/src/editor_icons.gd")
+const PE_STRIP_CAST_SCRIPT = preload("res://addons/_lib/ui_plugin/src/editor_icons.gd")
 static func get_singleton_name() -> String:
 	return "EditorIconsSingleton"
 
