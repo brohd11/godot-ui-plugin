@@ -1,6 +1,6 @@
-#! namespace PluginUI class PluginButton
+#! namespace UIPlugin class PluginButton
 
-const EditorIcons = preload("uid://viocyrti6wce") #! resolve PluginUI.EditorIcons
+const EditorIcons = preload("uid://viocyrti6wce") #! resolve UIPlugin.EditorIcons
 
 
 var icon

@@ -1,5 +1,5 @@
 @tool
-#! namespace PluginUI class EditorTabContainer
+#! namespace UIPlugin class EditorTabContainer
 extends TabContainer
 
 @export var tab_titles:PackedStringArray

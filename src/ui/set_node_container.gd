@@ -1,9 +1,9 @@
-#! namespace PluginUI class SetNodeContainer
+#! namespace UIPlugin class SetNodeContainer
 extends HBoxContainer
 
 const _NOT_VALID_PATH = &"Not valid scene path."
 
-const PluginButton = preload("uid://redtm8tuamgm") #! resolve PluginUI.PluginButton
+const PluginButton = preload("uid://redtm8tuamgm") #! resolve UIPlugin.PluginButton
 
 var _button:Button
 var _label:=Label.new()

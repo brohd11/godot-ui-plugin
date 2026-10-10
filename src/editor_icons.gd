@@ -1,4 +1,4 @@
-#! namespace PluginUI class EditorIcons
+#! namespace UIPlugin class EditorIcons
 extends Singletons.Base
 
 const UTexture = preload("uid://ddu76iygjkxih") #! resolve ALibRuntime.Utils.UTexture
