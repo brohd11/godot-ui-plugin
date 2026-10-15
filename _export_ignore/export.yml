@@ -1,5 +1,5 @@
-export_root: "res://addons/_lib/plugin_ui/_export_ignore/exports"
-plugin_folder: "PluginUi{{version=res://addons/_lib/plugin_ui}}"
+export_root: "res://addons/_lib/ui_plugin/_export_ignore/exports"
+plugin_folder: "PluginUi{{version=res://addons/_lib/ui_plugin}}"
 pre_script: ""
 post_script: ""
 build_require: "@require"
@@ -34,12 +34,12 @@ options:
     parse_tres: {}
 exports:
   -
-    source: "res://addons/_lib/plugin_ui"
-    export_name: "plugin-ui{{version=res://addons/_lib/plugin_ui}}"
-    export_folder: addons/_lib/plugin_ui
+    source: "res://addons/_lib/ui_plugin"
+    export_name: "plugin-ui{{version=res://addons/_lib/ui_plugin}}"
+    export_folder: addons/_lib/ui_plugin
     exclude:
       directories:
-        - "res://addons/_lib/plugin_ui/_export_ignore"
+        - "res://addons/_lib/ui_plugin/_export_ignore"
       file_extensions: []
       files: []
     other_transfers: []
@@ -48,4 +48,4 @@ exports:
       parse_gd: {}
       parse_tscn: {}
       parse_tres: {}
-    remote_dir: "res://addons/_lib/plugin_ui/src/remote"
+    remote_dir: "res://addons/_lib/ui_plugin/src/remote"

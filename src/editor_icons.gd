@@ -1,7 +1,7 @@
 #! namespace UIPlugin class EditorIcons
 extends Singletons.Base
 
-const UTexture = preload("uid://ddu76iygjkxih") #! resolve ALibRuntime.Utils.UTexture
+const UTexture = preload("uid://cp6d2gyih02s2") #! resolve UtilR.Resources.UTexture
 
 ## Implement in extended classes
 
