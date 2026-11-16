@@ -5,7 +5,7 @@ const UTexture = preload("uid://cp6d2gyih02s2") #! resolve UtilR.Resources.UText
 
 ## Implement in extended classes
 
- #Use 'PE_STRIP_CAST_SCRIPT' to auto strip type casts with plugin exporter, if the class is not a global name
+#! gdp-strip-cast PE_STRIP_CAST_SCRIPT
 const PE_STRIP_CAST_SCRIPT = preload("res://addons/_lib/ui_plugin/src/editor_icons.gd")
 static func get_singleton_name() -> String:
 	return "EditorIconsSingleton"
